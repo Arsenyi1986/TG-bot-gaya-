@@ -1,4 +1,3 @@
 aiogram
 gunicorn
 selenium
-random
