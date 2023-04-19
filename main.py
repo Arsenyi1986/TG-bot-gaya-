@@ -92,10 +92,5 @@ async def get_txt_msg(msg: types.Message):
                          "Если у вас трудности с вводом - вы можете воспользоваться кнопками)")
 
 
-if __name__ == '__main__':
+def main():
     executor.start_polling(dp, skip_updates=True)
-
-
-    # b1 = types.KeyboardButton("Узнать курс валют!")
-    # b2 = types.KeyboardButton("Что я умею делать?")
-    # markup.add(b1, b2)
