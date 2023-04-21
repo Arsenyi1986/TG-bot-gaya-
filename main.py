@@ -92,5 +92,5 @@ async def get_txt_msg(msg: types.Message):
                          "Если у вас трудности с вводом - вы можете воспользоваться кнопками)")
 
 
-def main():
+if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
