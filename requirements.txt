@@ -2,4 +2,3 @@ aiogram
 gunicorn
 selenium
 webdriver_manager
-ChromeDriverManager
