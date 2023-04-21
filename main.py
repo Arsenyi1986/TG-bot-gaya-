@@ -6,6 +6,7 @@ API_TOKEN = '5912553276:AAHKCbp6bLfgjDiu453JfJ6jQGJno3I3ITo'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
+parser_module_ar.chrome_in()
 
 
 @dp.message_handler(commands=['start'])
