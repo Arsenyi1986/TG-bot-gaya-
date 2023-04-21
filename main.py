@@ -1,6 +1,4 @@
 import random
-import parser_module_ar
-from parser_module_ar import parse_money, parse_money_b
 from aiogram import Bot, Dispatcher, executor, types
 API_TOKEN = '5912553276:AAHKCbp6bLfgjDiu453JfJ6jQGJno3I3ITo'
 
