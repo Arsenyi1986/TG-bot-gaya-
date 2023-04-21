@@ -3,3 +3,4 @@ gunicorn
 selenium
 webdriver_manager
 ChromeDriver
+google-chrome
