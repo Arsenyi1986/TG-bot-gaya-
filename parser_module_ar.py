@@ -8,7 +8,7 @@ def chrome_in():
     s = Service(ChromeDriverManager().install())
 
 def parse_money():
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(s)
     result = ''
     driver.get("https://cbr.ru/")
     listik = ''
@@ -41,7 +41,7 @@ def parse_money():
 
 
 def parse_money_b():
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(s)
     t_res = ''
     res = ''
     driver.get("https://www.rbc.ru/")
