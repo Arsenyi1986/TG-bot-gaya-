@@ -1,10 +1,14 @@
 import random
 from aiogram import Bot, Dispatcher, executor, types
 API_TOKEN = '5912553276:AAHKCbp6bLfgjDiu453JfJ6jQGJno3I3ITo'
+import selenium
+from selenium import By
+from selenium import webdriver
+
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
-parser_module_ar.chrome_in()
+chrome_in()
 
 
 @dp.message_handler(commands=['start'])
