@@ -2,8 +2,10 @@ import random
 from aiogram import Bot, Dispatcher, executor, types
 API_TOKEN = '5912553276:AAHKCbp6bLfgjDiu453JfJ6jQGJno3I3ITo'
 import selenium
-from selenium import By
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
 
 bot = Bot(token=API_TOKEN)
