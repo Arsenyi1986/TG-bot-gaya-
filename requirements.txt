@@ -2,4 +2,4 @@ aiogram
 gunicorn
 selenium
 webdriver_manager
-GoogleChrome
+ChromeDriver
